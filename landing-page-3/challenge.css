@@ -100,6 +100,7 @@ body {
 
 .shop-button:hover {
   /* Define hover styles for shop button here */
+  background-color: #333;
 }
 
 .tea-collection {
