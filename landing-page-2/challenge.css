@@ -1,0 +1,142 @@
+/* Challenge CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1.6;
+}
+
+/* Navbar styles */
+.navbar {
+  /* Add styles for the navbar */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #202020a9;
+  padding: 0px 28px;
+}
+
+.logo {
+  /* Add styles for the logo */
+  display: flex;
+  align-items: center;
+  
+  
+}
+
+.logo img {
+  /* Add styles for the logo image */
+  border-radius: 50px;
+  border: 2px solid #07d456;
+}
+.logo p{
+  color: #07d456;
+  font-family: 'Poppins';
+  font-weight: 700;
+}
+.menu a {
+  /* Add styles for the navigation links */
+  text-decoration: none;
+  color: #ffff;
+  font-family: 'Poppins';
+  margin: 0px 12px;
+}
+
+.menu a:hover {
+  /* Add hover styles for navigation links */
+  color: #07d456;
+}
+
+/* Hero section styles */
+.hero {
+  /* Add styles for the hero section */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-image: url(./assets/chaicohort.png);
+   background-size: cover;
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center;
+  height: 70vh;
+   
+}
+
+.hero-content {
+  /* Add styles for the hero content container */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hero-content h1 {
+  /* Add styles for the hero heading */
+  color: #07d456;
+  font-family: 'Poppins';
+}
+
+.hero-content p {
+  /* Add styles for the hero paragraph */
+  color: #ffff;
+  font-family: 'Poppins';
+}
+
+.hero-content img {
+  /* Add styles for the image in the hero section */
+  border-radius: 10px;
+  border: 2px solid #07d456;
+}
+
+.enroll-button {
+  /* Add styles for the enroll button */
+  background-color: #07d456;
+  border: none;
+  width: 110px;
+  text-align: center;
+  padding: 10px 15px;
+  border-radius: 50px;
+  margin-left: 140px;
+  font-family: 'Poppins';
+}
+
+.enroll-button:hover {
+  /* Add hover styles for the enroll button */
+}
+
+/* Highlights section styles */
+.highlights {
+  /* Add styles for the highlights section */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #1e201f;
+}
+
+.highlight-card {
+  /* Add styles for each highlight card */
+  text-align: center;
+  margin: 0px 30px;
+  border-radius: 5px;
+  border: none;
+  padding: 20px 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 20px 18px;
+  background-color: #555756c7;
+}
+
+.highlight-card h3 {
+  /* Add styles for highlight card headings */
+  font-family: 'Poppins';
+  color: #07d456;
+  font-size: 12px;
+}
+
+.highlight-card p {
+  /* Add styles for highlight card paragraphs */
+  font-family: 'Poppins';
+  color: #ffff;
+  font-size: 10px;
+}

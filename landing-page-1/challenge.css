@@ -1,0 +1,141 @@
+/* Challenge CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styles */
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+}
+
+/* Navbar styles */
+.navbar {
+  /* Add styles for navbar */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #202020a9;
+  padding: 10px 28px;
+}
+
+.logo {
+  /* Add styles for the logo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #edebeb;
+  gap: 5px;
+  font-family: 'Poppins';
+  font-size: 12px;
+}
+
+.logo img {
+  /* Add styles for logo image */
+  border-radius: 50px;
+  font-size: 10pxpx;
+}
+
+.nav-links a {
+  /* Add styles for nav links */
+  text-decoration: none;
+  color: #edebeb;
+  font-family: 'Poppins';
+  margin: 0px 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.nav-links a:hover {
+  /* Add hover styles for nav links */
+}
+
+/* Hero section styles */
+.hero {
+  /* Add styles for hero section */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("./assets/chaigym.png");
+  background-size: cover;
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center;
+  background-color: #020202;
+  height: 100vh; /* This makes it take up the full viewport height */
+  width: 100%;
+}
+
+.hero-content {
+  /* Add styles for hero content */
+  text-align: center;
+  color: #ffff;
+  margin-top: 50px;
+  
+}
+
+.hero-content h1 {
+  /* Add styles for hero heading */
+  font-family: 'Poppins';
+}
+
+.hero-content p {
+  /* Add styles for hero paragraph */
+  padding: 10px 0px;
+  
+}
+
+.cta-button {
+  /* Add styles for CTA button */
+  background-color: #f08113;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 20px ;
+  
+}
+
+.cta-button:hover {
+  /* Add hover styles for CTA button */
+}
+
+/* Features section styles */
+.features {
+  /* Add styles for features section */
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  padding: 30px 60px;
+  background-color: #020202c4;
+}
+
+.feature {
+  /* Add styles for each feature block */
+  gap: 30px;
+  padding: 30px 30px;
+  border: 2px solid #b85e04;
+  text-align: center;
+  margin: 0px 20px;
+  border-radius: 15px;
+
+}
+
+.feature h3 {
+  /* Add styles for feature heading */
+  color: #b85e04;
+  font-family: 'Poppins';
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.feature p {
+  /* Add styles for feature paragraph */
+  color: #edebeb;
+  font-family: 'Poppins';
+  font-size: 10px;
+  font-weight: 500;
+}

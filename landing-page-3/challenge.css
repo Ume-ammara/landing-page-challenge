@@ -1,0 +1,155 @@
+/* Challenge CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Georgia", serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.header {
+  /* Define header styles here */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fffcfc;
+  padding: 10px 28px;
+}
+
+.logo {
+  /* Define logo styles here */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #853414;
+  font-family: 'Poppins';
+  gap: 3px;
+}
+.logo p {
+  font-family: 'Poppins';
+  font-weight: 800;
+}
+.logo img {
+  /* Define image styles within the logo here */
+  border-radius: 50px;
+  border: 2px solid #853414;
+}
+
+.nav-menu a {
+  /* Define navigation link styles here */
+  text-decoration: none;
+  color: #853414;
+  font-family: 'Poppins';
+  margin: 0px 10px;
+  font-weight: 600;
+}
+
+.nav-menu a:hover {
+  /* Define hover styles for navigation links here */
+  color: #333;
+}
+
+.hero {
+  /* Define hero section styles here */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url(./assets/chaipatti.png);
+  background-size: cover;
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center;
+  height: 70vh;
+  width: 100%;
+  
+}
+
+.hero-text h1 {
+  /* Define styles for h1 in hero-text here */
+  color: #fffcfc;
+  margin-bottom: 10px;
+  font-size: 35px;
+  font-family: 'Poppins';
+ 
+}
+
+.hero-text p {
+  /* Define styles for paragraph in hero-text here */
+  color: #fffcfc;
+  margin-bottom: 10px;
+  font-family: 'Poppins';
+  text-align: center;
+  font-size: 13px;
+}
+
+.shop-button {
+  /* Define shop button styles here */
+  padding: 10px 30px;
+  background-color: #853414;
+  color: #fffcfc;
+  font-family: 'Poppins';
+  border: none;
+  border-radius: 50px;
+  margin-bottom: 95px;
+  margin-left: 170px;
+}
+
+.shop-button:hover {
+  /* Define hover styles for shop button here */
+}
+
+.tea-collection {
+  /* Define tea collection section styles here */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 40px 0px;
+}
+
+.tea-collection h2 {
+  /* Define styles for h2 in tea collection here */
+  font-family: 'Poppins';
+  color: #853414;
+}
+
+.tea-cards {
+  /* Define tea cards container styles here */
+  display: grid;
+  grid-template-rows: 200px 200px;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 800px;
+  margin-top: 30px;
+  gap: 22px;
+}
+
+.tea-card {
+  /* Define styles for each tea card here */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 4px;
+  padding: 0px 30px;
+ 
+}
+
+.tea-card h3 {
+  /* Define styles for tea card headings here */
+  font-family: 'Poppins';
+  color: #853414;
+  margin-top: 8px;
+}
+
+.tea-card p {
+  /* Define styles for tea card paragraph text here */
+  text-align: center;
+  font-family: 'Poppins';
+  font-size: 12px;
+  margin-top: 10px;
+}
